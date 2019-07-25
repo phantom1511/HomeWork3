@@ -1,10 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-        //String[] name = {"Dastan Tulokulov", "Cristiano Ronaldo", "Mark Zuckerberg"};
+        //String[] name = {"Cristiano Ronaldo", "Dastan Tulokulov", "Mark Zuckerberg"};
         String[] name = new String[3];
-        name[0] = "Dastan Tulokulov";
-        name[1] = "Cristiano Ronaldo";
+        name[0] = "Cristiano Ronaldo";
+        name[1] = "Dastan Tulokulov";
         name[2] = "Mark Zuckerberg";
 
         String[] names = new String[name.length + 1];
@@ -20,10 +20,10 @@ public class Main {
 
 
         switch (names[3]) {
-            case "Dastan Tulokulov":
+            case "Cristiano Ronaldo":
                 System.out.println("Good morning " + names[0] + "!");
                 break;
-            case "Cristiano Ronaldo":
+            case "Dastan Tulokulov":
                 System.out.println("Good afternoon " + names[1] + "!");
                 break;
             case "Mark Zuckerberg":
