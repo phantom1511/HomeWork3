@@ -7,9 +7,6 @@ public class Main {
         name[1] = "Dastan Tulokulov";
         name[2] = "Mark Zuckerberg";
 
-
-
-
         String[] names = new String[name.length + 1];
         for (int i = 0; i < name.length; i++) {
             names[i] = name[i];
@@ -22,22 +19,25 @@ public class Main {
         System.out.println(".............................................");
 
 
-        switch (names[3]) {
-            case "Cristiano Ronaldo":
-                System.out.println("Good morning " + names[0] + "!");
-                break;
-            case "Dastan Tulokulov":
-                System.out.println("Good afternoon " + names[1] + "!");
-                break;
-            case "Mark Zuckerberg":
-                System.out.println("Good evening " + names[2] + "!");
-                break;
-            case "Elon Musk":
-                System.out.println("Good night " + names[3] + "!");
-                break;
-            default:
-                System.out.println("Please check the case correctness");
-                break;
+        for (int j = 0; j < names.length; j++) {
+            switch (names[j]) {
+                case "Cristiano Ronaldo":
+                    System.out.println("Good morning " + names[0] + "!");
+                    break;
+                case "Dastan Tulokulov":
+                    System.out.println("Good afternoon " + names[1] + "!");
+                    break;
+                case "Mark Zuckerberg":
+                    System.out.println("Good evening " + names[2] + "!");
+                    break;
+                case "Elon Musk":
+                    System.out.println("Good night " + names[3] + "!");
+                    break;
+                default:
+                    System.out.println("Please check the case correctness");
+                    break;
+            }
+            //System.out.println(names[j]);
         }
     }
 }
