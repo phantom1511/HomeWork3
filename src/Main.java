@@ -7,6 +7,9 @@ public class Main {
         name[1] = "Dastan Tulokulov";
         name[2] = "Mark Zuckerberg";
 
+
+
+
         String[] names = new String[name.length + 1];
         for (int i = 0; i < name.length; i++) {
             names[i] = name[i];
